@@ -1,7 +1,7 @@
 # Banking System in Java
 
 ## Overview
-This is a simple **Banking System** implemented in Java. It allows users to register, log in, deposit, withdraw, transfer money, and view their transaction history. The system uses **SHA-256 hashing** for password security and provides a command-line interface for user interaction.
+A secure banking system implemented in **Java** using **JavaFX** for the graphical user interface (GUI) and **AES encryption** for secure transactions. The system allows users to perform banking operations, such as account creation, deposit, withdrawal, and balance checks, while ensuring secure communication through encryption.
 
 ## Features
 - **User Registration & Authentication** (Password hashing with SHA-256)
@@ -10,16 +10,20 @@ This is a simple **Banking System** implemented in Java. It allows users to regi
 - **Transaction History** tracking
 - **Balance Inquiry**
 - **Secure Storage** of user credentials
-
+- **GUI**: The system features an easy-to-use **JavaFX-based GUI** for better user interaction.
+- 
 ## Technologies Used
 - Java (JDK 21)
 - SHA-256 for password hashing
 - Command-Line Interface (CLI)
 
 ## How to Run
-### Prerequisites
-- Install [Java JDK 21](https://jdk.java.net/)
-- Use [IntelliJ IDEA](https://www.jetbrains.com/idea/) or any Java IDE
+## Prerequisites
+Before you can run this project, you need to ensure that you have the following installed on your system:
+
+1. **JDK 22 or later** (This project uses JavaFX and requires JDK 22 for compatibility).
+2. **JavaFX SDK** (To run JavaFX-based applications).
+   Download JavaFX from [here](https://openjfx.io/).
 
 ### Steps
 1. Clone the repository:
@@ -41,12 +45,7 @@ This is a simple **Banking System** implemented in Java. It allows users to regi
 
 ## Future Enhancements
 - Implement a database for storing user data
-- Add a GUI using JavaFX or Swing
 - Integrate AES encryption for transaction security
-
-## License
-This project is licensed under the MIT License.
 
 ---
 **Author:** Jawad Jradi
-
